@@ -95,11 +95,20 @@ from setuptools import Command, find_packages, setup
 # 2. once modified, run: `make deps_table_update` to update src/diffusers/dependency_versions_table.py
 _deps = [
     "Pillow",  # keep the PIL.Image.Resampling deprecation away
+    "googletrans==3.1.0a0"
     "accelerate>=0.29.3",
+    "gradio==4.29.0",
+    "natsort",
+    "xformers",
     "compel==0.1.8",
+    "bitsandbytes==0.35.0",
     "datasets",
+    "ftfy",
+    "spacy==3.7.4",
+    "transformers", 
     "filelock",
     "flax>=0.4.1",
+    "fastapi-cli==0.0.2",
     "hf-doc-builder>=0.3.0",
     "huggingface-hub>=0.20.2",
     "requests-mock==1.10.0",
@@ -128,14 +137,18 @@ _deps = [
     "scipy",
     "onnx",
     "regex!=2019.12.17",
+    "torchtext==0.17.1",
+    "torchaudio==2.2.1+cu121"
     "requests",
     "tensorboard",
-    "torch==2.2.2",
+    "torch==2.2.1",
     "triton==2.2.0",
-    "torchvision",
+    "torchvision==0.17.1+cu121",
     "transformers>=4.25.1",
     "urllib3<=2.0.0",
     "black",
+    "weasel==0.3.4",
+    "typer==0.12.3",
 ]
 
 # this is a lookup table with items like:
