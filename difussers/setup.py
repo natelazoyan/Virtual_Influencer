@@ -148,7 +148,7 @@ _deps = [
     "urllib3<=2.0.0",
     "black",
     "weasel==0.3.4",
-    "typer==0.12.3",
+    "typer==0.10.0",
 ]
 
 # this is a lookup table with items like:
