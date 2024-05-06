@@ -96,7 +96,7 @@ from setuptools import Command, find_packages, setup
 _deps = [
     "Pillow",  # keep the PIL.Image.Resampling deprecation away
     "googletrans==3.1.0a0",
-    "accelerate>=0.29.3",
+    "accelerate",
     "gradio==4.29.0",
     "natsort",
     "xformers",
@@ -222,7 +222,7 @@ class DepsTableUpdateCommand(Command):
 extras = {}
 extras["quality"] = deps_list("urllib3", "isort", "ruff", "hf-doc-builder")
 extras["docs"] = deps_list("hf-doc-builder")
-extras["training"] = deps_list("accelerate>=0.29.3", "datasets", "protobuf", "tensorboard", "Jinja2", "peft")
+extras["training"] = deps_list("accelerate", "datasets", "protobuf", "tensorboard", "Jinja2", "peft")
 extras["test"] = deps_list(
     "compel",
     "GitPython",
