@@ -138,7 +138,7 @@ _deps = [
     "onnx",
     "regex!=2019.12.17",
     "torchtext==0.17.1",
-    "torchaudio==2.2.1+cu121"
+    "torchaudio==2.2.1+cu121",
     "requests",
     "tensorboard",
     "torch==2.2.1",
@@ -148,7 +148,7 @@ _deps = [
     "urllib3<=2.0.0",
     "black",
     "weasel==0.3.4",
-    "typer==0.12.3"
+    "typer==0.12.3",
 ]
 
 # this is a lookup table with items like:
