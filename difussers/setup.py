@@ -95,7 +95,7 @@ from setuptools import Command, find_packages, setup
 # 2. once modified, run: `make deps_table_update` to update src/diffusers/dependency_versions_table.py
 _deps = [
     "Pillow",  # keep the PIL.Image.Resampling deprecation away
-    "googletrans==3.1.0a0"
+    "googletrans==3.1.0a0",
     "accelerate>=0.29.3",
     "gradio==4.29.0",
     "natsort",
