@@ -101,14 +101,13 @@ _deps = [
     "natsort",
     "xformers",
     "compel==0.1.8",
-    "bitsandbytes==0.35.0",
+    "bitsandbytes==0.41.3",
     "datasets",
     "ftfy",
     "spacy==3.7.4",
     "transformers", 
     "filelock",
     "flax>=0.4.1",
-    "fastapi-cli==0.0.2",
     "hf-doc-builder>=0.3.0",
     "huggingface-hub>=0.20.2",
     "requests-mock==1.10.0",
@@ -148,7 +147,7 @@ _deps = [
     "urllib3<=2.0.0",
     "black",
     "weasel==0.3.4",
-    "typer==0.10.0",
+    "typer>=0.3.0,<0.10.0",
 ]
 
 # this is a lookup table with items like:
