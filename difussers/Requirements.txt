@@ -33,7 +33,6 @@ tensorboard
 triton==2.2.0
 urllib3<=2.0.0
 black
-weasel==0.3.4
 torch==2.2.1
 torchaudio==2.2.1+cu121
 torchtext==0.17.1
