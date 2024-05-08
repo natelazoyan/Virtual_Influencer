@@ -39,7 +39,7 @@ torchaudio==2.2.1+cu121
 torchtext==0.17.1
 torchvision==0.17.1+cu121
 gradio==4.29.0
-typer>=0.3.0,<0.10.0
+typer
 spacy==3.7.4
 accelerate
 transformers>=4.25.1
