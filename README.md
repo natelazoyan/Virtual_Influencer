@@ -24,7 +24,8 @@ Clone the repository to get started:
 
 ```bash
 git clone https://github.com/username/virtual_influencer.git
-cd virtual_influencer
+cd virtual_influencer 
+```
 
 ## Usage
 
