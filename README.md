@@ -1,4 +1,4 @@
-# Virtual Influencer Project
+# Instagram Virtual Influencer
 
 Welcome to our Virtual Influencer project, where artificial intelligence brings a new dimension to social media. This project involves the creation of an AI-driven virtual influencer from Armenia who autonomously travels the world, shares fashion trends, interacts with followers, and manages social media posts and captions.
 
@@ -30,8 +30,6 @@ cd virtual_influencer
 ## Usage
 
 
-## Usage
-
 ### Image and Caption Generation
 
 For generating images, captions, and translating text, follow these steps:
@@ -58,7 +56,7 @@ To create deepfake videos, use the following steps:
 
 2. **Specify Input and Target**: Within the notebook, specify the input image and the target video for your deepfake scenario.
 
-### Audioio generation and Lip Syncing with Wav2Lip
+### Audio generation and Lip Syncing with Wav2Lip
 
 We have tried to combine audio generation with OpenAi Whisper and lipsyncing with Wav2lip. Although our initial results with Wav2Lip did not turn out as expected, you can try to replicate in the following notebook where further instructions will be found:
 
