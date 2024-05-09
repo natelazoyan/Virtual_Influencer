@@ -259,8 +259,8 @@ def parse_args(input_args=None):
     parser.add_argument(
         "--instance_data_dir",
         type=str,
-        default=None,
-        required=True,
+        default='/content/data/zwx',
+        #required=True,
         help="A folder containing the training data of instance images.",
     )
     parser.add_argument(
@@ -273,8 +273,8 @@ def parse_args(input_args=None):
     parser.add_argument(
         "--instance_prompt",
         type=str,
-        default=None,
-        required=True,
+        default='photo of zwx girl',
+        #required=True,
         help="The prompt with identifier specifying the instance",
     )
     parser.add_argument(
