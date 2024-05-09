@@ -29,13 +29,15 @@ cd virtual_influencer
 
 ## Usage
 
+
+## Usage
+
 ### Image and Caption Generation
 
 For generating images, captions, and translating text, follow these steps:
 
-1. **Open the Jupyter Notebook**: Navigate to the Jupyter notebook file that is set up for generating images and captions. 
-
-    ```bash
+1. **Open the Jupyter Notebook**: Navigate to the Jupyter notebook file that is set up for generating images and captions.
+    ```
     jupyter notebook Instagram_Content_Generation_for_Virtual_Influencer.ipynb
     ```
 
@@ -45,8 +47,29 @@ For generating images, captions, and translating text, follow these steps:
 
 4. **Translate Text**: If you need to translate the generated captions or any other text into another language, follow the instructions provided in the notebook. This might involve setting parameters for the translation model or specifying the target language.
 
+### Video Deepfaking
+
+To create deepfake videos, use the following steps:
+
+1. **Open the Video Deepfaking Notebook**:
+    ```
+    jupyter notebook Video_DeepFaking.ipynb
+    ```
+
+2. **Specify Input and Target**: Within the notebook, specify the input image and the target video for your deepfake scenario.
+
+### Lip Syncing with Wav2Lip
+
+Although our initial results with Wav2Lip did not turn out as expected, you can try to replicate in the following notebook where further instructions will be found:
+
+1. **Open the Lip Syncing Notebook**:
+    ```
+    jupyter notebook LipSyncing_Wav2Lip.ipynb
+    ```
+
 ### Fine-Tuning Model
-For Image generation you can use already pretrained weights available in drive https://drive.google.com/drive/folders/12vZ9cIQ89yR2x8wxRFFdF4g7YB2QLQu5?usp=drive_link 
+
+For image generation, you can use already pretrained weights available in drive: https://drive.google.com/drive/folders/12vZ9cIQ89yR2x8wxRFFdF4g7YB2QLQu5?usp=drive_link 
 
 To fine-tune the model with DreamBooth, ensure you have GPU resources available, such as those provided by Google Colab:
 
