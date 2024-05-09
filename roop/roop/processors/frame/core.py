@@ -8,7 +8,7 @@ from types import ModuleType
 from typing import Any, List, Callable
 from tqdm import tqdm
 
-import roop.roop
+import roop
 
 FRAME_PROCESSORS_MODULES: List[ModuleType] = []
 FRAME_PROCESSORS_INTERFACE = [

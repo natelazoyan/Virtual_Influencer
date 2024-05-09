@@ -15,12 +15,12 @@ import shutil
 import argparse
 import onnxruntime
 import tensorflow
-import roop.roop.globals
-import roop.roop.metadata
-import roop.roop.ui as ui
-from roop.roop.predictor import predict_image, predict_video
-from roop.roop.processors.frame.core import get_frame_processors_modules
-from roop.roop.utilities import has_image_extension, is_image, is_video, detect_fps, create_video, extract_frames, get_temp_frame_paths, restore_audio, create_temp, move_temp, clean_temp, normalize_output_path
+import roop.globals
+import roop.metadata
+import roop.ui as ui
+from roop.predictor import predict_image, predict_video
+from roop.processors.frame.core import get_frame_processors_modules
+from roop.utilities import has_image_extension, is_image, is_video, detect_fps, create_video, extract_frames, get_temp_frame_paths, restore_audio, create_temp, move_temp, clean_temp, normalize_output_path
 
 warnings.filterwarnings('ignore', category=FutureWarning, module='insightface')
 warnings.filterwarnings('ignore', category=UserWarning, module='torchvision')

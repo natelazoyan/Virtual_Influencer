@@ -7,14 +7,14 @@ from typing import Any, Callable, Tuple, Optional
 import cv2
 from PIL import Image, ImageOps
 
-import roop.roop.globals
-import roop.roop.metadata
-from roop.roop.face_analyser import get_one_face
-from roop.roop.capturer import get_video_frame, get_video_frame_total
-from roop.roop.face_reference import get_face_reference, set_face_reference, clear_face_reference
-from roop.roop.predictor import predict_frame, clear_predictor
-from roop.roop.processors.frame.core import get_frame_processors_modules
-from roop.roop.utilities import is_image, is_video, resolve_relative_path
+import roop.globals
+import roop.metadata
+from roop.face_analyser import get_one_face
+from roop.capturer import get_video_frame, get_video_frame_total
+from roop.face_reference import get_face_reference, set_face_reference, clear_face_reference
+from roop.predictor import predict_frame, clear_predictor
+from roop.processors.frame.core import get_frame_processors_modules
+from roop.utilities import is_image, is_video, resolve_relative_path
 
 ROOT = None
 ROOT_HEIGHT = 700

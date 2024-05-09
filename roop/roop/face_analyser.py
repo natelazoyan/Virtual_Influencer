@@ -3,8 +3,8 @@ from typing import Any, Optional, List
 import insightface
 import numpy
 
-import roop.roop.globals
-from roop.roop.typing import Frame, Face
+import roop.globals
+from roop.typing import Frame, Face
 
 FACE_ANALYSER = None
 THREAD_LOCK = threading.Lock()
