@@ -58,9 +58,9 @@ To create deepfake videos, use the following steps:
 
 2. **Specify Input and Target**: Within the notebook, specify the input image and the target video for your deepfake scenario.
 
-### Lip Syncing with Wav2Lip
+### Audioio generation and Lip Syncing with Wav2Lip
 
-Although our initial results with Wav2Lip did not turn out as expected, you can try to replicate in the following notebook where further instructions will be found:
+We have tried to combine audio generation with OpenAi Whisper and lipsyncing with Wav2lip. Although our initial results with Wav2Lip did not turn out as expected, you can try to replicate in the following notebook where further instructions will be found:
 
 1. **Open the Lip Syncing Notebook**:
     ```
